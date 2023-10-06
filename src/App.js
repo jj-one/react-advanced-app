@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import Layout from './Layout';
-import MainContent from './MainContent';
+// import Layout from './Layout';
+// import MainContent from './MainContent';
+import UserList from './UserList';
 // import Counter from './Counter';
 // import NewCounter from './NewCounter';
 // import NewUserInfo from './NewUserInfo';
@@ -9,9 +10,7 @@ import MainContent from './MainContent';
 
 function App() {
   return (
-    <Layout>
-      <MainContent />
-    </Layout>
+    <UserList />
   );
 }
 
